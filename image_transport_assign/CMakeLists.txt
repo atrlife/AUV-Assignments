@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(image_transport_assign)
 
 
-find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs genmsg)
+find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs genmsg cv_bridge image_transport)
 
 
 add_message_files(FILES Num.msg)
